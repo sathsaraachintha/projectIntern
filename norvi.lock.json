@@ -2,8 +2,81 @@
   "version": 2,
   "enforcementLevel": "strict",
   "libraries": {
-    "manager": [],
-    "managerResolved": [],
-    "git": []
+    "manager": [
+      {
+        "name": "Adafruit BusIO",
+        "version": "1.17.4",
+        "scope": "shared"
+      },
+      {
+        "name": "Adafruit GFX Library",
+        "version": "1.12.6",
+        "scope": "shared"
+      },
+      {
+        "name": "Adafruit SSD1306",
+        "version": "2.5.17",
+        "scope": "shared"
+      },
+      {
+        "name": "Adafruit GFX Library",
+        "version": "1.12.6",
+        "scope": "pinned"
+      },
+      {
+        "name": "Adafruit SSD1306",
+        "version": "2.5.17",
+        "scope": "pinned"
+      },
+      {
+        "name": "Adafruit BusIO",
+        "version": "1.17.4",
+        "scope": "pinned"
+      }
+    ],
+    "managerResolved": [
+      {
+        "name": "Adafruit BusIO",
+        "version": "1.17.4"
+      },
+      {
+        "name": "Adafruit GFX Library",
+        "version": "1.12.6"
+      },
+      {
+        "name": "Adafruit SSD1306",
+        "version": "2.5.17"
+      }
+    ],
+    "git": [
+      {
+        "name": "Adafruit SSD1306",
+        "url": "https://github.com/adafruit/adafruit_ssd1306",
+        "commit": "d94f699451d72286357cba7259055ffff2c2940b",
+        "contentSha256": "0d1640aab3eb985a843ef59dc848ab1357ce7e4b25d2e3b5eda2c31a165b9199",
+        "scope": "shared"
+      },
+      {
+        "name": "Adafruit GFX Library",
+        "url": "https://github.com/adafruit/adafruit-gfx-library",
+        "commit": "ac6d7c3869a693d406f77b9bfcd486b0673169f0",
+        "contentSha256": "24b0727d5042f18b736c128d47ae11bd81dcce40b6896f18dca1e85dc4bd5444",
+        "scope": "shared"
+      },
+      {
+        "name": "Adafruit GFX Library",
+        "url": "https://github.com/adafruit/Adafruit-GFX-Library",
+        "commit": "ac6d7c3869a693d406f77b9bfcd486b0673169f0",
+        "contentSha256": "24b0727d5042f18b736c128d47ae11bd81dcce40b6896f18dca1e85dc4bd5444",
+        "scope": "shared"
+      },
+      {
+        "name": "Adafruit SSD1306",
+        "url": "https://github.com/adafruit/Adafruit_SSD1306",
+        "commit": "d94f699451d72286357cba7259055ffff2c2940b",
+        "contentSha256": "0d1640aab3eb985a843ef59dc848ab1357ce7e4b25d2e3b5eda2c31a165b9199",
+        "scope": "shared"
+      }
+    ]
   }
 }
